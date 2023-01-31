@@ -1,0 +1,32 @@
+/*row design*/
+html {
+    background-color: lightblue;
+}
+.container1 {
+    display: flex;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+button {
+    margin: 50px;
+    background-color: indianred;
+    color: aliceblue;
+    border-radius: 50px;
+    padding: 2rem;
+    font-size:larger;
+    box-shadow: 0 1px 7px black;
+    border: none;
+    ;
+}
